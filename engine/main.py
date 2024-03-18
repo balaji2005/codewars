@@ -129,7 +129,7 @@ class Game:
                 l.append((x, y))
         return l + [base_red, base_blue]
 
-    def create_map(self):
+    def create_map(self):   
         """Take info about __collectibles and create the map"""
         im = np.zeros((self.__dim))
 
